@@ -1,8 +1,28 @@
 /target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# IntelliJ IDEA Files
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
-*.iws
-*.idea
+
+### mvn ###
+.mvn/
+mvnw
+mvnw.cmd
+
+release.properties
+pom.xml.releaseBackup
+derby.log
+
+
