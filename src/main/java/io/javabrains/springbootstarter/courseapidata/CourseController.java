@@ -26,11 +26,6 @@ public class CourseController {
     @PostMapping( value= "/topics/{topicId}/courses/")
     public void addCourse(@RequestBody Course course, @PathVariable String topicId){
 
-        //getAllCoursesTopics(t -> (course.getTopic().getId().equals(topicId))
-        /*.equals()).findFirst().get();
-                setTopic(new Topic(topicId,"",""));*/
-        //course.setTopic(new Topic(topicRepository.getTopic(topicId)));
-
         course.setTopic(new Topic(topicId,"",""));
         courseService.addCourse(course);
     }
