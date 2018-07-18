@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.javabrains.springbootquickstart</groupId>
-    <artifactId>Java Brains Course ApI</artifactId>
+    <artifactId>course-api</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -41,6 +41,11 @@
         </plugins>
     </build>
 
-
+    <scm>
+        <connection>scm:git:https://github.com/catalinjecu/courseAPI.git</connection>
+        <developerConnection>scm:git:https://github.com/catalinjecu/courseAPI.git</developerConnection>
+        <url>https://github.com/catalinjecu/courseAPI</url>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
