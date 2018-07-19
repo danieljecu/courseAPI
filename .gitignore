@@ -16,6 +16,9 @@
 *.iml
 *.ipr
 
+### Visual Studio Code
+.vs/
+
 ### mvn ###
 .mvn/
 mvnw
